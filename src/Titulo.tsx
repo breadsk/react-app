@@ -3,9 +3,9 @@ function Titulo(){
 
   const nombre = "Nicolas";
   if(nombre){
-    return <p>Hola {nombre}</p>
+    return <h1>Hola {nombre}</h1>
   }
-  return "Hola Mundo";
+  return <h1>Hola Mundo</h1>
 }
 
 export default Titulo;
